@@ -1,0 +1,29 @@
+# movie-reccomendation-system
+
+this is a movie reccomendation system by salma ahmed alm eldeen in machine intellegence course 
+
+Have you ever wondered how Facebook or YouTube offers new friends or material to you? 
+You may have spotted similar product recommendations from LinkedIn acquaintances or from Amazon when you're browsing. 
+The use of recommender systems has made all of these recommendations possible. 
+A group of methods and algorithms known as recommender systems let users be suggested "relevant" stuff. 
+They use a variety of methods, including as matrix factorization, to forecast future behaviour using historical data.
+
+Some refer to the current period as the "age of abundance." There can be thousands of options available for any given product. 
+Consider the aforementioned instances: social networking, online shopping, streaming videos, and so forth.
+Recommender systems assist in personalising a platform and assisting users in finding content they enjoy. 
+To suggest the most well-liked things is the quickest and simplest technique to accomplish this. 
+However, we require specialised recommender systems if we are to significantly improve the user experience through individualised recommendations.
+
+The commonality of movie properties is the foundation of content-based techniques. 
+If a user uses this kind of recommender system and watches one movie, related movies are suggested to them. 
+For instance, the algorithm will suggest films in the same genre or featuring the same actor, or both, to a user after they watch a comedy starring Adam Sandler. 
+In light of this, movie qualities are the input for developing a content-based recommender system.
+
+I'll be using GroupLens' open-source MovieLens dataset for this system. 
+100K data points from different movies and users are included in this dataset.
+
+We will forecast our users' ratings for movies they haven't yet seen in order to provide recommendations for them. Based on these projected ratings, movies are subsequently indexed and recommended to consumers. 
+
+In order to do this, i will forecast future ratings for movies based on historical data and user reviews. 
+At this stage, it's important to note that we will probably run into brand-new users or films without a history in the actual world. 
+These circumstances are known as "cold start issues."
