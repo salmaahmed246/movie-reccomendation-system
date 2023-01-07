@@ -1,0 +1,15 @@
+def get_recommendations(title):
+    idx = indices[title]
+    sim_scores = list(enumerate(cosine_sim[idx]))
+    sim_scores = sorted(sim_scores, key=lambda x: x[1], reverse=True)
+    sim_scores = sim_scores[1:31]
+    movie_indices = [i[0] for i in sim_scores]
+    return titles.iloc[movie_indices]
+   
+   
+   
+get_recommendations('The Godfather').head(10)
+    
+    
+get_recommendations('Back to the Future').head(10)
+
